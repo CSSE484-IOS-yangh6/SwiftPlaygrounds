@@ -38,7 +38,7 @@ numValuesOverLimit(values, 9)
 func asAFunc(_ someString: String, _ someNumber: Int) -> String {
   return String(repeating: someString, count: someNumber)
 }
-let asAClosure = {(_ someString: String, _ someNumber: Int) -> String in
+let asAClosure = {(someString: String, someNumber: Int) -> String in
   return String(repeating: someString, count: someNumber)
 }
 asAFunc("Holy ", 3)
