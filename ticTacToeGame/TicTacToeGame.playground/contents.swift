@@ -69,7 +69,7 @@ class TicTacToeGame: CustomStringConvertible {
         // Check for a tie BEFORE Checking for a win
         if !board.contains(.none) {
             state = .tie
-        }
+        }rea
         
         var linesOf3 = [String]()
         
